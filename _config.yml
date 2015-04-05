@@ -1,4 +1,4 @@
-url: "https://alterego.clothing"
+url: "http://alterego.clothing"
 highlighter: pygments
 
 # Permalinks
@@ -8,8 +8,8 @@ permalink: pretty
 baseurl: /
 encoding: UTF-8
 
-languages: ['en', 'zh', 'id']
-languages_text: ['English', '中文', 'Bahasa Indonesia']
+languages: ['en', 'id', 'zh']
+languages_text: ['English', 'Bahasa Indonesia', '中文']
 language_default: 'en'
 exclude_from_localizations: ['Gemfile', 'Gemfile.lock', 'CNAME', 'robots.txt', 'js', 'images', 'css', 'assets']
 
