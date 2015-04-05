@@ -22,3 +22,6 @@ analytics:
   google:
     account: UA-43024238-2
     domain: "alterego.clothing"
+
+gems:
+  - jekyll-sitemap
