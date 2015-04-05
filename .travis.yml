@@ -4,4 +4,5 @@ rvm: 2.2.1
 script: bundle exec rake deploy
 env:
   global:
-    secure: dr5h4Q9H8xtWjo09DwI6WvgFlgd89n0pyXgspnggN+pGzRmeHsmr+e+ZhN1yW54xa0SIBbN2e8C8cycmn1Ju6aSV2t8y7WRJewKcxmeDK2W/WEJOEojVHoURU2Tws9Pd+NRQwswDdLe6TimCvihJCj8Q/yFNYtsrtUgHEYVd0cg=
+  - secure: dr5h4Q9H8xtWjo09DwI6WvgFlgd89n0pyXgspnggN+pGzRmeHsmr+e+ZhN1yW54xa0SIBbN2e8C8cycmn1Ju6aSV2t8y7WRJewKcxmeDK2W/WEJOEojVHoURU2Tws9Pd+NRQwswDdLe6TimCvihJCj8Q/yFNYtsrtUgHEYVd0cg=
+  - secure: DVwB1wRDW1jATF6p9Z8inUoja4IY6JTfKSQTiTi5s7ZnQHf9SGpSB9OELSCghlplqDReWXG2lBKqdc8rcC69u4v5MFCPZ0OPPj24ocAOC+x6IflPG7WWE7wimICCySYYxA73BNo85RHgsOKBJv+yVn3F6dWS9vwVpgrubFjHUWg=
