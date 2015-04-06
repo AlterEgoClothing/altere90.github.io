@@ -27,7 +27,7 @@ $(function() {
         e.stopPropagation();
       });
       $(this).bind('touchstart',function(e) {
-        $(this).toggle('cs-hover');
+        $(this).toggleClass('cs-hover');
       });
     });
   });

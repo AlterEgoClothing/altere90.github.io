@@ -9,6 +9,11 @@ html,body {
 .rowbtn{
     display:block;
 }
+@media screen and (max-width: 500px){
+    .media-left {
+        display:block;
+    }
+}
 .thumbnail{
     min-width:200px;
 }
