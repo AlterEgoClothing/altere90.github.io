@@ -4,11 +4,20 @@ global:
   indonesia: "Indonesia"
   lang_url: "/id"
   product_link: "Detail"
+  event_link: "Detail"
+  all: "See All"
+  address: "Address："
+  time: "Time："
 
 header:
   title: "Alter Ego"
-  description: "Alter Ego"
 
 titles:
   home: "Alter Ego Clothing and Everything"
-  product: "Product"
+  product: "Clothing"
+  event: "Events"
+
+descriptions:
+  home: "Alter Ego"
+  product: "Product Descrition"
+  event: "Event Description"

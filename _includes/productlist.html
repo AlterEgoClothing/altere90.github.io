@@ -1,7 +1,9 @@
+{% if site.categories['product']  %}
 {% capture lang_url %}{% translate global.lang_url %}{% endcapture %}
 <section class="container-fluid" id="ProductList">
+    <h1 class="text-center">Hot Products</h1>
     <ul class="grid cs-style-3">
-    {% for post in site.categories['product']  limit: 6 %}
+    {% for post in site.categories['product'] limit: 6 %}
         <li>
             <figure>
                 {% if post.image %}
@@ -16,4 +18,8 @@
         </li>
     {% endfor %}
     </ul>
+    <div class="row text-center">
+        <a href="{{ lang_url }}/product/" class="btn btn-primary rowbtn" >{% translate global.all %}</a>
+    </div>
 </section>
+{% endif %}

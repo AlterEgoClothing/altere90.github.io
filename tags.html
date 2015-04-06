@@ -3,8 +3,8 @@ layout: default
 title: tags
 permalink: /tags/
 ---
-
-<ul class="tag_box inline">
+<section class="container-fluid">
+<ul class="list-inline">
     {% assign tags_list = site.tags %}
     {% include tags_list %}
 </ul>
@@ -17,3 +17,5 @@ permalink: /tags/
     {% include pages_list %}
 </ul>
 {% endfor %}
+
+</section>

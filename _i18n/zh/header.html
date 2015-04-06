@@ -1,5 +1,6 @@
-<li><a href="#ProductList">產品</a></li>
-<li><a href="#Events">活動</a></li>
-<li><a href="#SocialMedia">Social Media</a></li>
-<li><a href="#">How To Buy</a></li>
+{% capture lang_url %}{% translate global.lang_url %}{% endcapture %}
+<li><a href="{{ lang_url }}/product/">產品</a></li>
+<li><a href="{{ lang_url }}/event/">活動</a></li>
+<li><a href="{{ lang_url }}/#SocialMedia">Social Media</a></li>
+<li><a href="{{ lang_url }}/#">How To Buy</a></li>
 <li>&nbsp;</li>

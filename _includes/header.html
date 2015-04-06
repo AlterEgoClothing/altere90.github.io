@@ -1,3 +1,4 @@
+{% capture lang_url %}{% translate global.lang_url %}{% endcapture %}
 <nav id="header" class="navbar navbar-trans navbar-fixed-top navbar-default" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -21,6 +22,7 @@
         <li><a href="{{ site.baseurl_root }}{{ lang }}">{{ site.languages_text[forloop.index0] }}</a></li>
         {% endif %}
         {% endfor %}
+        <li><div id="ibacor_shareawesome"></div></li>
       </ul>
     </div>
   </div>

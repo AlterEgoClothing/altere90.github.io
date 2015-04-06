@@ -21,6 +21,15 @@ $(function() {
         }
       }
     });
+
+    $('ul.grid > li > figure').each(function(){
+      $(this).find('figcaption > a').bind('touchstart',function(e){
+        e.stopPropagation();
+      });
+      $(this).bind('touchstart',function(e) {
+        $(this).toggle('cs-hover');
+      });
+    });
   });
 
   var cbpAnimatedHeader = (function() {
