@@ -17,9 +17,9 @@
       <ul class="nav navbar-nav navbar-right">
         {% for lang in site.languages %}
         {% if lang == site.language_default %}
-        <li><a href="{{ site.baseurl_root }}">{{ site.languages_text[forloop.index0] }}</a></li>
+        <li{% if site.lang == lang %} class="active"{% endif %}><a href="{{ site.baseurl_root }}">{{ site.languages_text[forloop.index0] }}</a></li>
         {% else %}
-        <li><a href="{{ site.baseurl_root }}{{ lang }}">{{ site.languages_text[forloop.index0] }}</a></li>
+        <li{% if site.lang == lang %} class="active"{% endif %}><a href="{{ site.baseurl_root }}{{ lang }}">{{ site.languages_text[forloop.index0] }}</a></li>
         {% endif %}
         {% endfor %}
         <li><div id="ibacor_shareawesome"></div></li>
